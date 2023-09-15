@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio4</title>
+</head>
+<body>
+    <h1>Alberto Luis Delgado Ortega</h1>
+    <hr>
+    <h2>Implementacion de formulario</h2>
+   
+    <form action="">
+    <div>
+    <label for="">E-mail</label>
+    <input type="text" placeholder="Correo Electrónico" id="correo">
+    
+    </div>
+    <div>
+        <label for="">Password</label>
+        <input type="password" placeholder="contraseña" id="password">
+
+    </div>
+    <button onclick="boton()">login</button>
+
+    <script>
+        function boton() {
+          var x = document.getElementById("correo").value;
+          console.log(x);
+          var y = document.getElementById("password").value;
+          console.log(y);
+        }
+        </script>
+</form>
+
+</body>
+</html>
