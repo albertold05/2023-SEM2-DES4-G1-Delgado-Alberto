@@ -1,0 +1,60 @@
+
+
+h1{
+    margin-bottom: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center; 
+    align-items: center
+    
+}
+
+#fondo{
+
+    background-color: rgb(128, 128, 128);
+   /* width: 30%;*/
+   width: 300px;
+    margin: 0 auto;
+
+}
+
+.piramide {
+    text-align: center;
+    font-size: 18px;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(242, 248, 254);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(10, 1, 1);
+    border: 2px solid #00090f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 10px 5px;
+    border-radius: 5px;
+    transform: rotate(180deg); /* Rotación de 45 grados */
+}
+
+.caja2 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 235, 217);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(234, 52, 36);
+    border: 3px solid rgb(234, 52, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 10px 5px;
+    border-radius: 5px;
+    transform: rotate(180deg); /* Rotación de 45 grados */
+}
