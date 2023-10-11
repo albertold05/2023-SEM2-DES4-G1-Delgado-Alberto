@@ -1,28 +1,69 @@
-
-
 body{
-margin: 0;
-padding: 0;
-background-color: rgb(38, 51, 93);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 51, 93);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.encabezado {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.encabezado{
-padding: 10px;
-display: flex;
-justify-content: center;
-color: white;
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.menu p{
+    margin-left: 10px;
+    margin-right: 10px;
+
+
 }
 
-.encabezado p {
-margin: 0;
-padding: 10px;
+.todo{
+    display: flex;
+    justify-content: center;
 }
 
-.derecho{
-text-align: right;
-margin-top: -58px;
-margin-right: 100px;
-color: white;
+.contenido{
+margin-top: 130px;
+margin-right: 200px;
+}
+
+
+.contenido p{
+    margin: 5px;
+    font-size: 20px;
+}
+.contenido h1{
+    margin: 5px;
+    font-size: 60px;
+}
+
+.textm{
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+
+.cuadrado{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(201, 190, 190, 0.929);   
+    margin-top: 50px; 
+    margin-left: 150px;
+    margin-right: -20px;
+
+}
+
+.botones{
+    margin-top: 15px;
+    
 
 }
 
@@ -31,14 +72,15 @@ color: white;
     height: 30px;
     background-color: rgb(249, 116, 75);
     color: white;
+    border-radius: 5px;
 }
 
 #boton2{
     width: 70px;
     height: 30px;
     background-color: rgb(249, 116, 75);
-
     color: white;
+    border-radius: 5px;
 }
 #boton3{
     width: 130px;
@@ -46,33 +88,5 @@ color: white;
     background-color: rgb(38, 51, 93);
     color: white;
     border-color: rgb(249, 116, 75);
-}
-
-.contenido{
-margin-left: 100px;
-margin-top: 120px;
-color: white;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
-}
-
-.contenido p{
-    margin: 0;
-    padding-bottom:  8px;
-    }
-
-
-.botones {
-margin: 0;
-padding-top:  8px;
-}
-
-.cuadrado{
-width: 500px;
-height: 500px;
-background-color: rgba(201, 190, 190, 0.929);
-margin-left: 800px;
-margin-top: -350px;
-
-
+    border-radius: 5px;
 }
