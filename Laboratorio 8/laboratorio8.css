@@ -4,6 +4,7 @@ body{
     background-color: rgb(38, 51, 93);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+
     }
 
 .encabezado {
@@ -95,4 +96,66 @@ text-decoration: none;
     color: white;
     border-color: rgb(249, 116, 75);
     border-radius: 5px;
+}
+
+.parte2{
+background-color: white;    
+color: black;
+display: flex;
+justify-content: center;
+margin-top: 80px;
+
+}
+
+.parte2 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.parte2 h5{
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+}
+
+.parte3{
+    background-color: white;    
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+    .cuadros{
+    margin: 20px;
+    border: 1px solid rgb(228, 214, 214); /* Puedes ajustar el ancho, el estilo y el color del borde según tus necesidades */
+    padding: 10px; /* Añade un relleno para separar el contenido del borde */
+    }
+
+
+    .cuadros h5{
+        margin-bottom: -10px;
+        font-weight: normal;
+    }
+
+    .cuadros h4{
+       /*margin-top: 50px;*/
+        margin-bottom: -25px;
+        margin-top: 18px;
+    }
+
+    .cuadros h6{
+
+        font-weight: normal;
+    }
+.perfil{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.perfil img{
+
+    border-radius: 50%;
 }
