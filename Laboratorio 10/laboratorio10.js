@@ -15,21 +15,29 @@ function fibonacci(quantity) {
 
 
 const createCards = (quantity) => {
-  if(quantity < 20 && quantity > 1){
-  let cards = '';
-  let fibNumbers = fibonacci(quantity);
-  for(let i = 0; i < fibNumbers.length; i++) {
-    cards += `
-      <div class="square">${fibNumbers[i]}</div>
-    `;
+  if (quantity < 20 && quantity > 1) {
+    let cards = '';
+    let fibNumbers = fibonacci(quantity);
+    for (let i = 0; i < fibNumbers.length; i++) {
+      cards += `
+        <div class="square"><span class="close">X</span>${fibNumbers[i]}</div>
+      `;
+    }
+    return cards;
   }
-  return cards;
-}
-}
+};
 
-  const drawCards = (cards) => {
+const drawCards = (cards) => {
   response.innerHTML = cards;
-  }
+
+  const squares = document.querySelectorAll('.square');
+  squares.forEach(square => {
+    const closeBtn = square.querySelector('.close');
+    closeBtn.addEventListener('click', () => {
+      square.style.display = 'none';
+    });
+  });
+};
 
 // ----------------------------------------
 
