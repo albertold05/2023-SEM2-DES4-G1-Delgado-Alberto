@@ -1,9 +1,6 @@
 // HTML Elements
 const form = document.querySelector('form');
-const fila1 = document.querySelector('.fila1');
-const fila2 = document.querySelector('.fila2');
-const fila3 = document.querySelector('.fila3');
-const fila4 = document.querySelector('.fila4');
+
 // ----------------------------------------
 
 // Functions
@@ -24,20 +21,6 @@ const fila4 = document.querySelector('.fila4');
       } while (x <= quantity);
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ----------------------------------------
 
