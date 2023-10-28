@@ -1,0 +1,52 @@
+
+
+.cuadrop{
+display: flex;
+justify-content: center;
+}
+
+
+.cuadro{
+color: aliceblue;
+background-color: rgb(13, 13, 97);
+margin-top: 50px;
+margin-bottom: 50px;
+border: 2px solid black;
+padding: 30px;
+border-radius: 10px;
+width: 250px; /* Ancho fijo */
+height: 150px; /* Altura fija */
+}
+
+.fila1, .fila2, .fila3, .fila4 {
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(242, 248, 254);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(10, 1, 1);
+    border: 2px solid #00090f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 10px 5px;
+    border-radius: 5px;
+
+}
+
+#boton{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#entrada{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px ;
+}
