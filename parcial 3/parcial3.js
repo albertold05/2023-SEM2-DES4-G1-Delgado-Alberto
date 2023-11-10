@@ -13,7 +13,7 @@ const createCards = (quantity) => {
           let square = '';
           for (let j = 0; j <= i; j++) {
               let min = 1;
-              let max = 3;
+              let max = 99;
               let randomNumInRange = Math.floor(Math.random() * (max - min + 1)) + min;
               pyramid[i].push(randomNumInRange);
               square += `<div class="caja" data-value="${randomNumInRange}">${randomNumInRange}</div>`;
