@@ -1,5 +1,6 @@
 const form = document.getElementById('myForm');
 const piramide = document.getElementById('piramide');
+const sumatoria = document.querySelector('.sumatoria');
 
 const createCards = (quantity) => {
     piramide.innerHTML = ''; // Limpiar la pirámide anterior
@@ -29,6 +30,10 @@ const createCards = (quantity) => {
 
         let maxPath = pyramid[0][0];
         console.log(`El camino con el mayor peso tiene un valor de ${maxPath}.`);
+
+        let sumElement = document.createElement('div');
+        sumElement.textContent = ` ${maxPath}`;
+        sumatoria.appendChild(sumElement);
     }
 };
 

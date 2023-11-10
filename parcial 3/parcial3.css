@@ -1,4 +1,4 @@
-body{
+.parte1{
     display: flex;
     justify-content: center;
 }
@@ -68,4 +68,16 @@ height: 150px; /* Altura fija */
     width: 250px;
     height: 25px;
     border-radius: 10px ;
+}
+
+.sumatoria{
+    width: 100px; /* Ajusta el ancho según tus preferencias */
+    height: 50px; /* Ajusta la altura según tus preferencias */
+    background-color:rgb(13, 13, 97); /* Cambia el color de fondo según tus preferencias */
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
