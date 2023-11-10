@@ -6,7 +6,7 @@ const form = document.querySelector('form');
 // Functions
 
   const createCards = (quantity) => {
-    if(quantity > 1 && quantity < 5) {
+    if(quantity > 1 && quantity < 51) {
       let x = 1;
       let y = 1;
       do {
@@ -20,7 +20,7 @@ const form = document.querySelector('form');
         x++;
       } while (x <= quantity);
     }
-  }
+  };
 
 // ----------------------------------------
 
@@ -30,7 +30,7 @@ const onFormSubmit = (event) => {
   const formData = new FormData(event.currentTarget);
   const cards = createCards(formData.get('quantity'));
 
-}
+};
 // ----------------------------------------
 
 // Event Listeners

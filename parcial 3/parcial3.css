@@ -21,7 +21,7 @@ height: 150px; /* Altura fija */
     display: flex;
     justify-content: center;
     align-items: center; /* Agrega alineación vertical al centro */
-    height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
+    /*height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
 }
 
 
@@ -31,8 +31,7 @@ height: 150px; /* Altura fija */
     display: flex;
     flex-direction: column; /* Alinea los elementos en columnas */
     align-items: center; /* Centra horizontalmente los elementos */
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 

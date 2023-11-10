@@ -29,7 +29,6 @@ const createCards = (quantity) => {
 
 const drawCards = (cards) => {
   response.innerHTML = cards;
-
   const squares = document.querySelectorAll('.square');
   squares.forEach(square => {
     const closeBtn = square.querySelector('.close');
