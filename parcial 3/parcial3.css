@@ -64,6 +64,12 @@ height: 150px; /* Altura fija */
     border-radius: 10px;
 }
 
+#boton2{
+    margin-top: 140px;
+    margin-left: 50px;
+    
+}
+
 #entrada{
     width: 250px;
     height: 25px;
@@ -71,8 +77,8 @@ height: 150px; /* Altura fija */
 }
 
 .sumatoria{
-    width: 100px; /* Ajusta el ancho según tus preferencias */
-    height: 50px; /* Ajusta la altura según tus preferencias */
+    width: 80px; /* Ajusta el ancho según tus preferencias */
+    height: 40px; /* Ajusta la altura según tus preferencias */
     background-color:rgb(13, 13, 97); /* Cambia el color de fondo según tus preferencias */
     border-radius: 10px;
     color: white;
@@ -80,4 +86,9 @@ height: 150px; /* Altura fija */
     justify-content: center;
     align-items: center;
 
+}
+
+.caja.selected {
+    background-color: coral; /* Cambia el color a tu elección */
+    color: white; /* Cambia el color del texto si es necesario */
 }
